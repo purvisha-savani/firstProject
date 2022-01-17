@@ -1,0 +1,39 @@
+
+.content{display:block; margin:0 auto;}
+@media screen and (min-width:1140px){
+	.content{max-width:1140px;}
+	h2 {
+  color: black;
+  text-align: center;
+}
+}
+
+/* Top Bar
+--------------------------------------------------------------------------------------------------------------- */
+#topbar{padding:20px 0; text-transform:uppercase;}
+
+/* title */
+.sectiontitle{
+	display:block;
+    max-width:55%;
+	margin:0 auto 80px;
+	text-align:center;}
+
+
+/* content */
+.grid-3 > li{margin-bottom:50px;}
+.grid-3 > li:nth-last-child(-n+3){margin-bottom:0;}/* Removes bottom margin from the last line of items - margin is restored in the media queries when items stack */
+.grid-3 > li:nth-child(3n+1){margin-left:0; clear:left;}/* Removes the need to add class="first" */
+
+/* Rows 2 */
+.row2{color:#000000; background-color:#ffffff;}
+
+.one_third{display:inline-block; float:left; margin:0 0 0 4.21052%; list-style:none;}
+.one_third{width: 30.52631%;}
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:1140px){
+	.hoc{max-width:1140px;}
+}
+
